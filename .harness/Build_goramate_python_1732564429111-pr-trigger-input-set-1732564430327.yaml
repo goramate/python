@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_goramate_python_1732564429111-pr-trigger-input-set
+  identifier: Build_goramate_python_1732564429111prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_goramate_python_1732564429111
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
