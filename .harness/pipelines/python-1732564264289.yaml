@@ -9,6 +9,7 @@ pipeline:
         build: <+input>
         connectorRef: account.Github
         repoName: goramate/python
+        branch: master
   stages:
     - stage:
         identifier: build
